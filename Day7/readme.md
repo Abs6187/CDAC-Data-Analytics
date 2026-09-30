@@ -11,13 +11,17 @@
 ```
 Day7/
 ├── 01_statistical_measure/
-│   └── 01_statistical_measures.ipynb          # Central tendency, dispersion, Winsorization & IQR outliers
+│   ├── 01_measures_of_central_tendency_updated.ipynb   # Mean, median, mode, geometric, harmonic, trimmed & Winsorized mean
+│   ├── 02_measures_of_dispersion_variability_spread.ipynb # Range, IQR, variance (s² vs σ²), std dev, MAD, and CV (%)
+│   └── 01_statistical_measures.ipynb                   # Integrated end-to-end laboratory notebook
 ├── 02_data_population/
-│   └── 02_data_population.ipynb              # Mixture models, continuous/discrete sampling & anomaly injection
+│   └── 02_data_population.ipynb                       # Multi-modal mixture models, sampling & anomaly injection
 ├── 03_bivariate_relationship/
-│   └── 03_bivariate_relationship.ipynb        # Covariance, Pearson vs Spearman, and the r≈0 non-linear trap
-└── readme.md                                  # Day 7 Master Reference Guide
+│   └── 03_bivariate_relationship.ipynb                 # Covariance, Pearson vs Spearman, and the r≈0 non-linear trap
+└── readme.md                                           # Day 7 Master Reference Guide
 ```
+
+*(Note: Companion files also available under `Day6/02_statistical_measure/`)*
 
 ---
 
