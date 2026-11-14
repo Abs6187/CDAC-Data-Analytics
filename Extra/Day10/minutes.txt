@@ -1,0 +1,28 @@
+Unsupervised:
+stage 1 (customer segementation)
+    z-score standardization  : Eliminating scale bias in distance metrics
+    Elbow & silhouette : Inertia WCSS & silhouette : Determine cluster count
+    k-means cluster profiling : Centrid mean : translating date clusters into actionable segments
+    RFM                       : Identisy VIP and churn risk
+stage 2 (agglomerative clustering)
+    Aglomerative hierarchy  : linkage tree  : nested hierarchies : forces points into clusters
+    DBSCAN                  : Density neighbourhood : non linear : isolates noise as -1
+    k-means                 : centroid distance minimize : pulls centroid towards ouliers
+stage 3 (dimentionality reduction)
+    PCA : orythogonal variance(eigenvectors) : feature compression and multi colinearity removal
+    t-sne : neighbour mapping KL-divergense  : non linear clusters
+stage 4 (anomaly detection)
+    Isolation forest    : random tree partition path length isolation : high-deimention outliers
+    local outlier factor (LOF) : density ration on complex clusters
+    fraud workflow : risk flagging
+
+Predictive Modelling:
+    
+
+
+
+
+
+
+
+
